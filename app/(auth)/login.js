@@ -110,7 +110,72 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
     padding: 20,
   },
+  emoji: {
+    fontSize: 60,
+    textAlign: "center",
+    marginBottom: 20,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "bold",
+    color: "#333",
+    textAlign: "center",
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: "#666",
+    textAlign: "center",
+    marginBottom: 40,
+  },
+  input: {
+    backgroundColor: "#fff",
+    borderRadius: 8,
+    padding: 15,
+    fontSize: 16,
+    borderColor: "#ddd",
+    borderWidth: 1,
+    marginBottom: 15,
+  },
+  button: {
+    backgroundColor: "#007bff",
+    padding: 15,
+    borderRadius: 8,
+    alignItems: "center",
+    marginTop: 10,
+    minHeight: 50,
+    justifyContent: "center",
+  },
+  buttonDisabled: {
+    opacity: 0.6,
+  },
+  buttonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  registerContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    marginTop: 20,
+    alignItems: "center",
+  },
+    registerText: {
+    color: "#666",
+    fontSize: 14,
+    },
+    registerLink: {
+    color: "#007bff",
+    fontSize: 14,
+    fontWeight: "bold",
+    },
+    infoText: {
+        marginTop: 30,
+        textAlign: "center",
+        color: "#888",
+        fontSize: 14,
+        paddingHorizontal: 20,
+    },
 });
