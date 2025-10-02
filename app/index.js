@@ -1,8 +1,7 @@
-import { registerRootComponent } from 'expo';
+import { Redirect } from 'expo-router';
 
-import App from '../App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+export default function Index() {
+    // Redireciona para login por padrão
+    // O AuthContext irá gerenciar o redirecionamento correto
+    return <Redirect href="/(auth)/login" />;
+}
